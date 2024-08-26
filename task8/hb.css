@@ -1,0 +1,14 @@
+.container>p{
+    background-color: bisque;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+  
+}
+.icon:active~ .container{
+    display: block;
+}
+.container{
+    display: none;
+}
